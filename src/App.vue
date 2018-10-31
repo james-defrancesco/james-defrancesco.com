@@ -205,7 +205,7 @@ export default {
       name: 'JAMES',
       surname: 'DE FRANCESCO',
       email: 'hello@james-defrancesco.com',
-      aboutMe: 'Nice to meet you! Check out my info below, and from time to time, I\ll share some thoughts!',
+      aboutMe: 'Nice to meet you! Check out my info below, and from time to time, I will share some thoughts!',
       experience: [
         {
           position: 'Software Engineer/Support',
