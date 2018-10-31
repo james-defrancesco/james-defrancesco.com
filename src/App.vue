@@ -27,6 +27,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -182,6 +185,14 @@
           <p class="mb-0"></p>
         </div>
       </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="blog">
+        <div class="my-auto">
+          <h2 class="mb-5">Blog</h2>
+          <p></p>
+          <p class="mb-0"></p>
+        </div>
+      </section>
     </div>
   </div>
 </template>
@@ -194,7 +205,7 @@ export default {
       name: 'JAMES',
       surname: 'DE FRANCESCO',
       email: 'hello@james-defrancesco.com',
-      aboutMe: '',
+      aboutMe: 'Nice to meet you! Check out my info below, and from time to time, I\ll share some thoughts!',
       experience: [
         {
           position: 'Software Engineer/Support',
