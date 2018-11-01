@@ -229,7 +229,7 @@ export default {
       name: 'JAMES',
       surname: 'DE FRANCESCO',
       email: 'imjamesdefrancesco@gmail.com',
-      aboutMe: 'Developer | Engineer | Nice to meet you!',
+      aboutMe: 'Full-Stack Developer | Nice to meet you!',
       experience: [
         {
           position: 'Software Engineer/Support',
