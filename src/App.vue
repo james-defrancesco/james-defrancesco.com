@@ -129,6 +129,9 @@
             <li class="list-inline-item">
               <i class="devicons devicons-react"></i>
             </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-docker"></i>
+            </li>
           </ul>
 
           <div class="subheading mb-3">Workflow</div>
@@ -152,7 +155,7 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="blog">
         <div class="my-auto">
           <h2 class="mb-5">Blog</h2>
-          <p>I plan on putting some cool stuff here...so stay tuned. Oh, and I'm working on adding a
+          <p>I'll be putting some cool stuff here...so stay tuned. Oh, and I'm working on adding a
             contact form so we can chat! For now, hit me up on any of the links above, or feel free to shoot me an
             email here: <a href="mailto:imjamesdefrancesco@gmail.com">{{ email }}</a>
           </p>
