@@ -19,7 +19,7 @@
             <a class="nav-link js-scroll-trigger" href="#interests">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            <a class="nav-link js-scroll-trigger" href="#skills">Tools</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#work">Work</a>
