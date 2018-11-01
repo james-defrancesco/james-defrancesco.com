@@ -100,7 +100,7 @@
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">New York Institute of Technology</h3>
-              <div class="subheading mb-3">Bachelor’s of Science</div>
+              <div class="subheading mb-3">Bachelor’s of Scienceeee</div>
               <div>Computer Science</div>
             </div>
             <div class="resume-date text-md-right">
