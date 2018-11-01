@@ -190,7 +190,7 @@
               <div>Computer Science</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">January 2015 - December 2018</span>
+              <span class="text-primary">January 2015 - In progress</span>
             </div>
           </div>
 
@@ -327,7 +327,8 @@ h2 {
 
 .subheading {
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 400;
+  letter-spacing: 1px;
   font-family: 'Saira Extra Condensed', serif;
   font-size: 1.35rem;
 }
