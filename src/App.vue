@@ -22,6 +22,9 @@
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
           </li>
           <li class="nav-item">
@@ -95,7 +98,7 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
+          <h2 class="mb-5">Toolbox</h2>
 
           <div class="subheading mb-3">Programming Languages &amp; Tools</div>
           <ul class="list-inline list-icons">
@@ -149,6 +152,14 @@
               <i class="fa-li fa fa-check"></i>
               Agile Development &amp; Scrum</li>
           </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="work">
+        <div class="my-auto">
+          <h2 class="mb-5">Work</h2>
+          <p>I'll add some of my previous projects and work here...stay tuned.</p>
+          <p class="mb-0"></p>
         </div>
       </section>
 
@@ -329,7 +340,7 @@ h2 {
 
 
 .subheading {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: 400;
   letter-spacing: 1px;
   font-family: 'Saira Extra Condensed', serif;
