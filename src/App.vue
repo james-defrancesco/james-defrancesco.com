@@ -415,6 +415,6 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #4fc08d;
 }
 </style>
