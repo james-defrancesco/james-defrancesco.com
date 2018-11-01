@@ -13,23 +13,26 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger" href="#about">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+            <a class="nav-link js-scroll-trigger" href="#interests">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Exp</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Edu</a>
+          </li>
+
+
+
         </ul>
       </div>
     </nav>
@@ -74,51 +77,19 @@
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5" v-for="job in experience" :key="job.description">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">{{ job.position }}</h3>
-              <div class="subheading mb-3">{{ job.company }}</div>
-              <p>{{ job.description }}</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">{{ job.startDate }} - {{ job.endDate }}</span>
-            </div>
-          </div>
-
-        </div>
-
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">New York Institute of Technology</h3>
-              <div class="subheading mb-3">Bachelor’s of Science</div>
-              <div>Computer Science</div>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">January 2015 - December 2018</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">The College of Westchester</h3>
-              <div class="subheading mb-3">Associate’s of Applied Science</div>
-              <div>Digital Media</div>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">April 2010 - May 2012</span>
-            </div>
-          </div>
-
+          <h2 class="mb-5">About Me</h2>
+          <p>I currently work for a fin-tech company in Manhattan, <a href="http://lendkey.com">LendKey Technologies</a>.
+            There, I work on various changes, bug fixes, feature adds, etc. Professionally, I've been working in
+            Ruby mostly, but my side work and interests usually revolve around Golang and Javascript, particularly
+            Vue.js. I'm brand new to Vue, and actually, this site is my "first" Vue project.
+          </p>
+          <p class="mb-0">Aside from development, I enjoy watching a good movie or binge watching a series here and there.
+            I'm a big fan of traveling the world, one place at a time. So far, the best has been Taiwan! Other hobbies of mine include
+            reading (tried listening to an audio book...couldn't do it), trying to come up with the next big idea with my friends,
+            and of course, eating!
+          </p>
         </div>
       </section>
 
@@ -178,19 +149,62 @@
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="blog">
         <div class="my-auto">
-          <h2 class="mb-5">Interests</h2>
-          <p></p>
+          <h2 class="mb-5">Blog</h2>
+          <p>I plan on putting some cool stuff here...so stay tuned. Oh, and I'm working on adding a
+            contact form so we can chat! For now, hit me up on any of the links above, or feel free to shoot me an
+            email here: <a href="mailto:imjamesdefrancesco@gmail.com">{{ email }}</a>
+          </p>
           <p class="mb-0"></p>
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="blog">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
         <div class="my-auto">
-          <h2 class="mb-5">Blog</h2>
-          <p></p>
-          <p class="mb-0"></p>
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5" v-for="job in experience" :key="job.description">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">{{ job.position }}</h3>
+              <div class="subheading mb-3">{{ job.company }}</div>
+              <p>{{ job.description }}</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">{{ job.startDate }} - {{ job.endDate }}</span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">New York Institute of Technology</h3>
+              <div class="subheading mb-3">Bachelor’s of Science</div>
+              <div>Computer Science</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2015 - December 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">The College of Westchester</h3>
+              <div class="subheading mb-3">Associate’s of Applied Science</div>
+              <div>Digital Media</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">April 2010 - May 2012</span>
+            </div>
+          </div>
+
         </div>
       </section>
     </div>
@@ -204,8 +218,8 @@ export default {
       title: 'My portfolio',
       name: 'JAMES',
       surname: 'DE FRANCESCO',
-      email: 'hello@james-defrancesco.com',
-      aboutMe: 'Nice to meet you! Check out my info below, and from time to time, I will share some thoughts!',
+      email: 'imjamesdefrancesco@gmail.com',
+      aboutMe: 'Developer | Engineer | Nice to meet you!',
       experience: [
         {
           position: 'Software Engineer/Support',
