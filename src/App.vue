@@ -45,7 +45,7 @@
             <span class="text-primary">{{ surname }}</span>
           </h1>
           <div class="subheading mb-5">{{ address }}
-            <a href="mailto:hello@james-defrancesco.com">{{ email }}</a>
+            <a href="mailto:imjamesdefrancesco@gmail.com">{{ email }}</a>
           </div>
           <p class="mb-5">{{ aboutMe }}</p>
           <ul class="list-inline list-social-icons mb-0">
