@@ -204,7 +204,6 @@
               <span class="text-primary">April 2010 - May 2012</span>
             </div>
           </div>
-
         </div>
       </section>
     </div>
@@ -304,7 +303,7 @@ h4,
 h5,
 h6 {
   font-family: 'Saira Extra Condensed', serif;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
   color: #343a40;
 }
@@ -318,9 +317,17 @@ h2 {
   font-size: 3.5rem;
 }
 
+/* .box-wrap {
+  border: 1px solid #eee;
+  box-shadow: 0 2px 2px #ccc;
+  padding: 20px;
+  width: 50%;
+} */
+
+
 .subheading {
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
   font-family: 'Saira Extra Condensed', serif;
   font-size: 1.35rem;
 }
