@@ -2,7 +2,7 @@
   <div class="main-wrapper">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#about">
-        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-block d-lg-none"></span>
         <span class="d-none d-lg-block">
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="./assets/profile.jpg" alt="">
         </span>
@@ -42,7 +42,7 @@
             <span class="text-primary">{{ surname }}</span>
           </h1>
           <div class="subheading mb-5">{{ address }}
-            <a href="mailto:name@email.com">{{ email }}</a>
+            <a href="mailto:hello@james-defrancesco.com">{{ email }}</a>
           </div>
           <p class="mb-5">{{ aboutMe }}</p>
           <ul class="list-inline list-social-icons mb-0">
