@@ -115,9 +115,6 @@
               <i class="devicons devicons-sass"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-wordpress"></i>
-            </li>
-            <li class="list-inline-item">
               <i class="devicons devicons-npm"></i>
             </li>
             <li class="list-inline-item">
