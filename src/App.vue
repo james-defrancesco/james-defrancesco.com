@@ -10,6 +10,8 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
+      <!-- Menu -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -24,12 +26,12 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Exp</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Edu</a>
-          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Exp / Edu</a>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li> -->
 
 
 
@@ -39,6 +41,7 @@
 
     <div class="container-fluid p-0">
 
+      <!-- Home -->
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
           <h1 class="mb-0">{{ name }}
@@ -77,6 +80,7 @@
         </div>
       </section>
 
+      <!-- About -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">About Me</h2>
@@ -93,6 +97,7 @@
         </div>
       </section>
 
+      <!-- Skills -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
           <h2 class="mb-5">Toolbox</h2>
@@ -149,6 +154,7 @@
         </div>
       </section>
 
+      <!-- Work -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="work">
         <div class="my-auto">
           <h2 class="mb-5">Work</h2>
@@ -160,18 +166,17 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="blog">
         <div class="my-auto">
           <h2 class="mb-5">Blog</h2>
-          <p>I'll be putting some cool stuff here...so stay tuned. Oh, and I'm working on adding a
-            contact form so we can chat! For now, hit me up on any of the links above, or feel free to shoot me an
+          <p>I'll be putting some cool stuff here...so stay tuned. Hit me up on any of the links above, or feel free to shoot me an
             email here: <a href="mailto:imjamesdefrancesco@gmail.com">{{ email }}</a>
           </p>
           <p class="mb-0"></p>
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+      <!-- Experience -->
+      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
         <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
-
+          <h2 class="mb-5">Education &amp; Experience</h2>
           <div class="resume-item d-flex flex-column flex-md-row mb-5" v-for="job in experience" :key="job.description">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">{{ job.position }}</h3>
@@ -182,15 +187,7 @@
               <span class="text-primary">{{ job.startDate }} - {{ job.endDate }}</span>
             </div>
           </div>
-
-        </div>
-
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
-
+          <hr>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">New York Institute of Technology</h3>
@@ -201,7 +198,6 @@
               <span class="text-primary">January 2015 - In progress</span>
             </div>
           </div>
-
           <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">The College of Westchester</h3>
@@ -213,13 +209,24 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
+
+      <!-- Contact form -->
+      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
+        <div>
+          <app-contact></app-contact>
+        </div>
+      </section> -->
     </div>
   </div>
 </template>
 
 <script>
+import Contact from './components/Contact.vue';
 export default {
+  components:{
+    'app-contact': Contact
+  },
   data () {
     return {
       title: 'My portfolio',
@@ -446,5 +453,211 @@ a {
 
 a:hover, a:focus, a:active {
   color: #4fc08d;
+}
+
+
+
+#app {
+  display: flex;
+}
+
+.vue-form {
+  font-size: 16px;
+  width: auto;
+  border-radius: 4px;
+  background-color: #fff;
+
+}
+.vue-form fieldset {
+  margin: 24px 0 0 0;
+}
+.vue-form legend {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #4fc08d;
+}
+.vue-form div {
+  position: relative;
+  margin: 20px 0;
+}
+.vue-form h4,
+.vue-form .label {
+  color: #94aab0;
+  margin-bottom: 10px;
+}
+.vue-form .label {
+  display: block;
+}
+.vue-form input,
+.vue-form textarea,
+.vue-form select,
+.vue-form label {
+  color: #2b3e51;
+}
+.vue-form input[type="text"],
+.vue-form input[type="email"],
+.vue-form textarea,
+.vue-form select,
+.vue-form legend {
+  display: block;
+  width: 100%;
+  appearance: none;
+}
+.vue-form input[type="text"],
+.vue-form input[type="email"],
+.vue-form textarea,
+.vue-form select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  border-radius: 0.25em;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+.vue-form input[type="text"]:focus,
+.vue-form input[type="email"]:focus,
+.vue-form textarea:focus,
+.vue-form select:focus {
+  outline: none;
+  border-color: #4fc08d;
+  box-shadow: 0 0 5px rgba(44, 151, 222, 0.2);
+}
+.vue-form .select {
+  position: relative;
+}
+.vue-form .select::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  right: 16px;
+  top: 50%;
+  margin-top: -8px;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url("data:image/svg+xml;charset=utf-8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20width%3D%2216px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2016%2016%22%20enable-background%3D%22new%200%200%2016%2016%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cg%3E%0D%0A%09%3Cpolygon%20fill%3D%22%232c3e50%22%20points%3D%220.9%2C5.5%203.1%2C3.4%208%2C8.3%2012.9%2C3.4%2015.1%2C5.5%208%2C12.6%20%09%22%2F%3E%0D%0A%3C%2Fg%3E%0D%0A%3C%2Fsvg%3E")
+    no-repeat center center;
+  pointer-events: none;
+}
+.vue-form select {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+.vue-form select::-ms-expand {
+  display: none;
+}
+.vue-form .vue-form-list {
+  margin-top: 16px;
+}
+.vue-form .vue-form-list::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.vue-form .vue-form-list li {
+  display: inline-block;
+  position: relative;
+  user-select: none;
+  margin: 0 26px 16px 0;
+  float: left;
+}
+
+.vue-form textarea {
+  min-height: 120px;
+  resize: vertical;
+  overflow: auto;
+}
+.vue-form input[type="submit"] {
+  border: none;
+  background: #4fc08d;
+  border-radius: 0.25em;
+  padding: 12px 20px;
+  color: #ffffff;
+  font-weight: bold;
+  float: right;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  appearance: none;
+}
+.no-touch .vue-form input[type="submit"]:hover {
+  background: #4fc08d;
+}
+.vue-form input[type="submit"]:focus {
+  outline: none;
+  background: #4fc08d;
+}
+.vue-form input[type="submit"]:active {
+  transform: scale(0.9);
+}
+.vue-form .error-message {
+  height: 35px;
+  margin: 0px;
+}
+.vue-form .error-message p {
+  background: #e94b35;
+  color: #ffffff;
+  font-size: 1.4rem;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: 0.25em;
+  padding: 16px;
+}
+.vue-form .error {
+  border-color: #e94b35 !important;
+}
+.vue-form .counter {
+  background-color: #ecf0f1;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 10px;
+  padding: 4px;
+}
+
+.debug {
+  border-radius: 4px;
+  margin: 50px auto;
+  width: 500px;
+  background-color: #000;
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3);
+}
+
+.debug pre {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 300;
+  white-space: pre-wrap;
+}
+
+@-webkit-keyframes cd-bounce {
+  0%,
+  100% {
+    -webkit-transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.8);
+  }
+}
+@-moz-keyframes cd-bounce {
+  0%,
+  100% {
+    -moz-transform: scale(1);
+  }
+  50% {
+    -moz-transform: scale(0.8);
+  }
+}
+@keyframes cd-bounce {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
 }
 </style>
