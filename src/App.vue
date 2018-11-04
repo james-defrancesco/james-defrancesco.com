@@ -90,7 +90,7 @@
             Vue.js. I'm brand new to Vue, and actually, this site is my "first" Vue project.
           </p>
           <p class="mb-0">Aside from development, I enjoy watching a good movie or binge watching a series here and there.
-            I'm a big fan of traveling the world, one place at a time. So far, the best has been Taiwan! Other hobbies of mine include
+            I'm a big fan of traveling, although I don't enjoy flying as much... So far, the best has been Taiwan! Other hobbies of mine include
             reading (tried listening to an audio book...couldn't do it), trying to come up with the next big idea with my friends,
             and of course, eating!
           </p>
@@ -166,10 +166,10 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="blog">
         <div class="my-auto">
           <h2 class="mb-5">Blog</h2>
-          <p>I'll be putting some cool stuff here...so stay tuned. Hit me up on any of the links above, or feel free to shoot me an
+          <p>I'll be putting some cool stuff here (I hope)...so stay tuned. Hit me up on any of the links above, or feel free to shoot me an
             email here: <a href="mailto:imjamesdefrancesco@gmail.com">{{ email }}</a>
           </p>
-          <p class="mb-0"></p>
+          <p class="mb-0">Here's a link to a medium post I wrote out in 2017. <a href="https://medium.com/@iamjd/gotta-start-somewhere-2f029cbc1280"> Here</a></p>
         </div>
       </section>
 
