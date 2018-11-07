@@ -169,7 +169,7 @@
           <p>I'll be putting some cool stuff here (I hope)...so stay tuned. Hit me up on any of the links above, or feel free to shoot me an
             email here: <a href="mailto:imjamesdefrancesco@gmail.com">{{ email }}</a>
           </p>
-          <p class="mb-0">Here's a link to a medium post I wrote out in 2017. <a href="https://medium.com/@iamjd/gotta-start-somewhere-2f029cbc1280"> Here</a></p>
+          <p class="mb-0">Here's a link to a <a href="https://medium.com/@iamjd/gotta-start-somewhere-2f029cbc1280">medium post</a> I wrote in 2017.</p>
         </div>
       </section>
 
@@ -557,7 +557,7 @@ a:hover, a:focus, a:active {
   position: relative;
   user-select: none;
   margin: 0 26px 16px 0;
-  float: left;
+  /* float: left; */
 }
 
 .vue-form textarea {
