@@ -169,7 +169,8 @@
           <p>I'll be putting some cool stuff here (I hope)...so stay tuned. Hit me up on any of the links above, or feel free to shoot me an
             email here: <a href="mailto:imjamesdefrancesco@gmail.com">{{ email }}</a>
           </p>
-          <p class="mb-0">Here's a link to a <a href="https://medium.com/@iamjd/gotta-start-somewhere-2f029cbc1280">medium post</a> I wrote in 2017.</p>
+          <p class="mb-0"><a href="https://medium.com/@iamjd/gotta-start-somewhere-2f029cbc1280">Gotta Start Somewhere</a></p>
+          <p class="mb-0"><a href="https://medium.com/@iamjd/inspirational-motivation-for-inspiring-and-motivating-a38b38e1741e">Inspirational Motivation for Inspiring and Motivating</a></p>
         </div>
       </section>
 
