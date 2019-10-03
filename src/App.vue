@@ -18,23 +18,14 @@
             <a class="nav-link js-scroll-trigger" href="#interests">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Tools</a>
+            <a class="nav-link js-scroll-trigger" href="#skills">The Watch List</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#work">Work</a>
-          </li>
+          </li> -->
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
+            <a class="nav-link js-scroll-trigger" href="#blog">Take A Second! Blog</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Exp / Edu</a>
-          </li> -->
-          <!-- <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li> -->
-
-
-
         </ul>
       </div>
     </nav>
@@ -48,31 +39,15 @@
             <span class="text-primary">{{ surname }}</span>
           </h1>
           <div class="subheading mb-5">{{ address }}
-            <a href="mailto:imjamesdefrancesco@gmail.com">{{ email }}</a>
+            <a href="mailto:awristotle@gmail.com">{{ email }}</a>
           </div>
           <p class="mb-5">{{ aboutMe }}</p>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
-              <a href="http://twitter.com/jimmysanfran">
+              <a href="https://www.instagram.com/awristotle/">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/jamesdefrancesco">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/james-defrancesco">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
             </li>
@@ -83,16 +58,8 @@
       <!-- About -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
-          <h2 class="mb-5">About Me</h2>
-          <p>I currently work for a fin-tech company in Manhattan, <a href="http://lendkey.com">LendKey Technologies</a>.
-            There, I work on various changes, bug fixes, feature adds, etc. Professionally, I've been working in
-            Ruby mostly, but my side work and interests usually revolve around Golang and Javascript, particularly
-            Vue.js. I'm brand new to Vue, and actually, this site is my "first" Vue project.
-          </p>
-          <p class="mb-0">Aside from development, I enjoy watching a good movie or binge watching a series here and there.
-            I'm a big fan of traveling, although I don't enjoy flying as much... So far, the best has been Taiwan! Other hobbies of mine include
-            reading (tried listening to an audio book...couldn't do it), trying to come up with the next big idea with my friends,
-            and of course, eating!
+          <h2 class="mb-5">About Awristotle</h2>
+          <p>Test text here
           </p>
         </div>
       </section>
@@ -100,122 +67,15 @@
       <!-- Skills -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
-          <h2 class="mb-5">Toolbox</h2>
-
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline list-icons">
-            <li class="list-inline-item">
-              <i class="devicons devicons-html5"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-css3"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-javascript"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-git"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-sass"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-npm"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-go"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-ruby"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-react"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-docker"></i>
-            </li>
-          </ul>
-
-          <div class="subheading mb-3">Workflow</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Functional Teams</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum</li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- Work -->
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="work">
-        <div class="my-auto">
-          <h2 class="mb-5">Work</h2>
-          <p>I'll add some of my previous projects and work here...stay tuned.</p>
-          <p class="mb-0"></p>
-        </div>
+          <h2 class="mb-5">The Watch List</h2>
+          </div>
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="blog">
         <div class="my-auto">
-          <h2 class="mb-5">Blog</h2>
-          <h3>Here are some of my recent posts</h3>
-          <p class="mb-0"><a href="https://medium.com/@iamjd/gotta-start-somewhere-2f029cbc1280">Gotta Start Somewhere</a></p>
-          <p class="mb-0"><a href="https://medium.com/@iamjd/inspirational-motivation-for-inspiring-and-motivating-a38b38e1741e">Inspirational Motivation for Inspiring and Motivating</a></p>
+          <h2 class="mb-5">Take A Second! Blog</h2>
         </div>
       </section>
-
-      <!-- Experience -->
-      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5">Education &amp; Experience</h2>
-          <div class="resume-item d-flex flex-column flex-md-row mb-5" v-for="job in experience" :key="job.description">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">{{ job.position }}</h3>
-              <div class="subheading mb-3">{{ job.company }}</div>
-              <p>{{ job.description }}</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">{{ job.startDate }} - {{ job.endDate }}</span>
-            </div>
-          </div>
-          <hr>
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">New York Institute of Technology</h3>
-              <div class="subheading mb-3">Bachelor’s of Science</div>
-              <div>Computer Science</div>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">January 2015 - In progress</span>
-            </div>
-          </div>
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">The College of Westchester</h3>
-              <div class="subheading mb-3">Associate’s of Applied Science</div>
-              <div>Digital Media</div>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">April 2010 - May 2012</span>
-            </div>
-          </div>
-        </div>
-      </section> -->
-
-      <!-- Contact form -->
-      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
-        <div>
-          <app-contact></app-contact>
-        </div>
-      </section> -->
     </div>
   </div>
 </template>
@@ -228,41 +88,11 @@ export default {
   },
   data () {
     return {
-      title: 'My portfolio',
-      name: 'JAMES',
-      surname: 'DE FRANCESCO',
-      email: 'imjamesdefrancesco@gmail.com',
-      aboutMe: 'Full-Stack Developer | Nice to meet you!',
-      experience: [
-        {
-          position: 'Software Engineer/Support',
-          company: 'LendKey Technologies',
-          description: '',
-          startDate: 'August 2018',
-          endDate: 'Present'
-        },
-        {
-          position: 'Junior Developer | Project Coordinator',
-          company: 'TMPG / Uncover',
-          description: '',
-          startDate: 'September 2016',
-          endDate: 'August 2018'
-        },
-        {
-          position: 'Web Developer Intern',
-          company: 'TMPG Media Innovation',
-          description: '',
-          startDate: 'May 2016',
-          endDate: 'September 2016'
-        },
-        {
-          position: 'Computer Service Technician',
-          company: 'Infoaxis',
-          description: '',
-          startDate: 'January 2016',
-          endDate: 'June 2016'
-        }
-      ]
+      title: 'Awristotle | Watch Enthusiast',
+      name: 'Awristotle',
+      surname: '',
+      email: 'awristotle@gmail.com',
+      aboutMe: '',
     }
   },
   mounted () {
@@ -298,7 +128,7 @@ export default {
 
 <style>
 body {
-  font-family: 'Open Sans', serif;
+  font-family: 'Poppins', sans-serif;
   padding-top: 54px;
   color: #868e96;
 }
@@ -316,10 +146,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', serif;
-  font-weight: 500;
+  /* font-family: 'Saira Extra Condensed', serif; */
+  font-weight: 400;
   text-transform: uppercase;
-  color: #343a40;
+  color: black;
 }
 
 h1 {
@@ -331,28 +161,21 @@ h2 {
   font-size: 3.5rem;
 }
 
-/* .box-wrap {
-  border: 1px solid #eee;
-  box-shadow: 0 2px 2px #ccc;
-  padding: 20px;
-  width: 50%;
-} */
-
 
 .subheading {
   text-transform: lowercase;
   font-weight: 400;
   letter-spacing: 1px;
-  font-family: 'Saira Extra Condensed', serif;
+  /* font-family: 'Saira Extra Condensed', serif; */
   font-size: 1.35rem;
 }
 
 .list-social-icons a {
-  color: #495057;
+  color: #2c2c2c;
 }
 
 .list-social-icons a:hover {
-  color: #4fc08d;
+  color: #868e96;
 }
 
 .list-social-icons a .fa-lg {
@@ -364,7 +187,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #4fc08d;
+  color: #2c2c2c;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -391,7 +214,7 @@ h2 {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    /* border: 0.5rem solid #fad1ad; */
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -413,6 +236,7 @@ h2 {
 }
 
 section.resume-section {
+  background: white;
   border-bottom: 1px solid #dee2e6;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
@@ -439,19 +263,19 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #4fc08d !important;
+  background-color: #2c2c2c !important;
 }
 
 .text-primary {
-  color: #4fc08d !important;
+  color: #2c2c2c !important;
 }
 
 a {
-  color: #4fc08d;
+  color: #2c2c2c;
 }
 
 a:hover, a:focus, a:active {
-  color: #4fc08d;
+  color: #2c2c2c;
 }
 
 
@@ -472,7 +296,7 @@ a:hover, a:focus, a:active {
 }
 .vue-form legend {
   padding-bottom: 10px;
-  border-bottom: 1px solid #4fc08d;
+  border-bottom: 1px solid #2c2c2c;
 }
 .vue-form div {
   position: relative;
@@ -507,7 +331,7 @@ a:hover, a:focus, a:active {
 .vue-form select {
   padding: 12px;
   border: 1px solid #ccc;
-  background-color: #ffffff;
+  background-color: #2c2c2c;
   border-radius: 0.25em;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08);
 }
@@ -516,7 +340,7 @@ a:hover, a:focus, a:active {
 .vue-form textarea:focus,
 .vue-form select:focus {
   outline: none;
-  border-color: #4fc08d;
+  border-color: #2c2c2c;
   box-shadow: 0 0 5px rgba(44, 151, 222, 0.2);
 }
 .vue-form .select {
@@ -566,10 +390,10 @@ a:hover, a:focus, a:active {
 }
 .vue-form input[type="submit"] {
   border: none;
-  background: #4fc08d;
+  background: #2c2c2c;
   border-radius: 0.25em;
   padding: 12px 20px;
-  color: #ffffff;
+  color: #2c2c2c;
   font-weight: bold;
   float: right;
   cursor: pointer;
@@ -578,11 +402,11 @@ a:hover, a:focus, a:active {
   appearance: none;
 }
 .no-touch .vue-form input[type="submit"]:hover {
-  background: #4fc08d;
+  background: #2c2c2c;
 }
 .vue-form input[type="submit"]:focus {
   outline: none;
-  background: #4fc08d;
+  background: #2c2c2c;
 }
 .vue-form input[type="submit"]:active {
   transform: scale(0.9);
@@ -593,7 +417,7 @@ a:hover, a:focus, a:active {
 }
 .vue-form .error-message p {
   background: #e94b35;
-  color: #ffffff;
+  color: #2c2c2c;
   font-size: 1.4rem;
   text-align: center;
   -webkit-font-smoothing: antialiased;
@@ -624,7 +448,7 @@ a:hover, a:focus, a:active {
 }
 
 .debug pre {
-  color: #ffffff;
+  color: #2c2c2c;
   font-size: 18px;
   line-height: 30px;
   font-family: "Source Code Pro", monospace;
